@@ -1,40 +1,35 @@
-		html {
-			background-image: url("/Users/Bright/Downloads/loginbgimage.jpg");
-			background-position: center;
+html {
+  background-image: url("assets/loginbgimage.jpg");
+  background-position: center;
+  font-family: serif;
+  font-weight: bold;
+  background-size: cover;
+}
 
-			font-family: serif;
-			font-weight: bold;
-			/*background-repeat: no-repeat;
-			background-size: cover;*/
-		}
+form {
+  background: rgba(1, 10, 35, 0.7);
+  text-align: left;
+  color: white;
+  border: 1px solid grey;
+  margin-top: 100px;
+  margin-right: 460px;
+  margin-left: 410px;
+  padding: 10px;
+}
 
-		form {
-			/*background-image: url("/Users/Bright/Downloads/loginbgimage.jpg");*/
-			background: rgba(1, 10, 35, 0.7);
-			/* Black background with 0.5 opacity */
-			text-align: left;
-			color: white;
-			border: 1px solid grey;
-			margin-top: 100px;
-			margin-right: 460px;
-			margin-left: 410px;
-			padding: 10px;
-		}
+span {
+  size: 3px;
+  color: red;
+}
 
-		span {
-			size: 3px;
-			color: red;
-		}
+li {
+  list-style: none;
+  margin-right: 40px;
+}
 
-		li {
-			list-style: none;
-			margin-right: 40px;
+img {
+  width: 100%;
+  height: auto;
+}
 
-		}
-
-		img {
-			width: 100%;
-			height: auto;
-		}
-
-		/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/

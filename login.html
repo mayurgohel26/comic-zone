@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Login Here</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-
-	html{
-			background-image: url("/Users/Bright/Downloads/loginbgimage.jpg");
+		html {
+			background-image: url("./assets/loginbgimage.jpg");
 			background-size: 1350px 650px;
 			font-weight: bold;
 			font-family: serif;
 		}
 
-		.container 
-		{
-		  position: relative;
-		  margin: 0 auto; /* Center it */
+		.container {
+			position: relative;
+			margin: 0 auto;
+			/* Center it */
 		}
 
-		.container .content 
-		{
-		  	position: absolute; /* Position the background text */
-		  	top: 0; /* At the bottom. Use top:0 to append it to the top */
-		  	right: 500;
-		  	color: white; /* Grey text */
-		  	width: 30%; /* Full width */
-		  	padding: 2px; /* Some padding */
+		.container .content {
+			position: absolute;
+			/* Position the background text */
+			top: 0;
+			/* At the bottom. Use top:0 to append it to the top */
+			right: 500;
+			color: white;
+			/* Grey text */
+			width: 30%;
+			/* Full width */
+			padding: 2px;
+			/* Some padding */
 
-		  	background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+			background: rgba(0, 0, 0, 0.7);
+			/* Black background with 0.5 opacity */
 			color: white;
 			border: 2px solid #804d00;
-		  	text-align: center;
-			
-			padding-bottom: 30px; 
-			
+			text-align: center;
+
+			padding-bottom: 30px;
+
 			margin-top: 150px;
 			margin-right: 553px;
 			margin-left: 410px;
 		}
-		
-		span
-		{
+
+		span {
 			size: 3px;
 			color: red;
 		}
 
-		.container .content a
-		{
+		.container .content a {
 			color: orange;
 			text-align: right;
 		}
-
 	</style>
 
 </head>
+
 <body>
 
 	<div class="container">
-	    <img src="/Users/Bright/Downloads/dc.jpg" style="width:100%; height:auto;">
-	<div class="content">
-		<h1 style="text-align:center; color: white">LOGIN HERE</h1></li>
+		<img src="assets/dc.jpg" style="width:100%; height:auto;">
+		<div class="content">
+			<h1 style="text-align:center; color: white">LOGIN HERE</h1>
+			</li>
 
-		<b><label>LOGIN ID :</label></b>
-		<input type="text" name="email" id="email">
-		<span id="emailMsg"></span><br><br>
+			<b><label>LOGIN ID :</label></b>
+			<input type="text" name="email" id="email">
+			<span id="emailMsg"></span><br><br>
 
-		<b><label>PASSWORD : </lable></b>
-		<input type="password" name="pwd" id="pwd">
-		<span id="pwdMsg" style="color: red"></span><br><br>
+			<b><label>PASSWORD : </lable></b>
+			<input type="password" name="pwd" id="pwd">
+			<span id="pwdMsg" style="color: red"></span><br><br>
 
-		<button onclick="validateForm()">SUBMIT</button> 
-		<button onclick="reset()">RESET</button><br><br>
+			<button onclick="validateForm()">SUBMIT</button>
+			<button onclick="reset()">RESET</button><br><br>
 
-		<a href="/Users/Bright/Desktop/Epistic's/December/Dec31/Home/register.html"><b>Create New Account</b></a> 		
-  		</div>
+			<a href="register.html"><b>Create New Account</b></a>
+		</div>
 
 </body>
 <script type="text/javascript" src="loginValidateJS.js"></script>
+
 </html>
