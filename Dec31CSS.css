@@ -1,4 +1,4 @@
-		html{
+		html {
 			background-image: url("/Users/Bright/Downloads/loginbgimage.jpg");
 			background-position: center;
 
@@ -8,9 +8,10 @@
 			background-size: cover;*/
 		}
 
-		form{
+		form {
 			/*background-image: url("/Users/Bright/Downloads/loginbgimage.jpg");*/
-			background: rgba(1, 10, 35, 0.7); /* Black background with 0.5 opacity */
+			background: rgba(1, 10, 35, 0.7);
+			/* Black background with 0.5 opacity */
 			text-align: left;
 			color: white;
 			border: 1px solid grey;
@@ -20,23 +21,20 @@
 			padding: 10px;
 		}
 
-		span
-		{
+		span {
 			size: 3px;
 			color: red;
 		}
 
-		li
-		{
+		li {
 			list-style: none;
 			margin-right: 40px;
 
 		}
 
-		img
-		{
+		img {
 			width: 100%;
 			height: auto;
 		}
 
-/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+		/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
