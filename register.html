@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Register yourself for booking comic</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="Dec31CSS.css">
 </head>
+
 <body>
-		<form id="myform" onsubmit ="return validateForm()">
-		
+	<form id="myform" onsubmit="return validateForm()">
+
 		<ul>
-		<li><h1 style="text-align:center; color: white">REGISTER HERE</h1></li>
-		
-		<li><b><label>NAME :</label></b>
-		<input type="text" name="name" id="name">
-		<span id="nameMsg"></span><br><br>
+			<li>
+				<h1 style="text-align:center; color: white">REGISTER HERE</h1>
+			</li>
 
-		<li><b><label>CITY :</label></b>
-		<select id="cities">
-			<option>-</option>
-			<option>AHMEDABAD</option>
-			<option>LOS ANGELES</option>
-			<option>SUART</option>
-			<option>NEWYORK</option>
-			<option>SAN FRANSISCO</option>
-			<option>LONDON</option>
-			<option>MOSCOW</option>
-			<option>TOKYO</option>
-		</select>
+			<li><b><label>NAME :</label></b>
+				<input type="text" name="name" id="name">
+				<span id="nameMsg"></span><br><br>
 
-		<span id="cityMsg"></span><br><br>
+			<li><b><label>CITY :</label></b>
+				<select id="cities">
+					<option>-</option>
+					<option>AHMEDABAD</option>
+					<option>LOS ANGELES</option>
+					<option>SUART</option>
+					<option>NEWYORK</option>
+					<option>SAN FRANSISCO</option>
+					<option>LONDON</option>
+					<option>MOSCOW</option>
+					<option>TOKYO</option>
+				</select>
 
-		<li><b><label>STATE :</label></b>
-		<select id="states">
-			<option>-</option>
-			<option>RUSSIA</option>
-			<option>GUJRAT</option>
-			<option>CALIFORNIA</option>
-			<option>ILLNOIS</option>
-			<option>MAHARASHTRA</option>
-			<option>NEWYORK</option>
-			<option>NEVADA</option>
-			<option>RAJSTHAN</option>
-			<option>GOA</option>
-			<option>KYUSHU</option>
-		</select>
-		<span id="stateMsg"></span><br><br>
+				<span id="cityMsg"></span><br><br>
 
-		<li><b><label>COUNTRY :</label></b>
-			<select id="countries">
-			<option>-</option>
-			<option>INDIA</option>
-			<option>BRAZIL</option>
-			<option>SOUTH AFRICA</option>
-			<option>SPAIN</option>
-			<option>USA</option>
-			<option>CUBA</option>
-			<option>CORIA</option>
-			<option>JAPAN</option>
-		</select>
-		<span id="countryMsg"></span><br><br>
+			<li><b><label>STATE :</label></b>
+				<select id="states">
+					<option>-</option>
+					<option>RUSSIA</option>
+					<option>GUJRAT</option>
+					<option>CALIFORNIA</option>
+					<option>ILLNOIS</option>
+					<option>MAHARASHTRA</option>
+					<option>NEWYORK</option>
+					<option>NEVADA</option>
+					<option>RAJSTHAN</option>
+					<option>GOA</option>
+					<option>KYUSHU</option>
+				</select>
+				<span id="stateMsg"></span><br><br>
 
-		<b><label>EMAIL : </lable></b>
-		<input type="email" name="email" id="email">
-		<span id="emailMsg" style="color: red"></span><br><br>
+			<li><b><label>COUNTRY :</label></b>
+				<select id="countries">
+					<option>-</option>
+					<option>INDIA</option>
+					<option>BRAZIL</option>
+					<option>SOUTH AFRICA</option>
+					<option>SPAIN</option>
+					<option>USA</option>
+					<option>CUBA</option>
+					<option>CORIA</option>
+					<option>JAPAN</option>
+				</select>
+				<span id="countryMsg"></span><br><br>
 
-		<b><label>CREATE PASSWORD : </lable></b>
-		<input type="password" name="pwd1" id="pwd1">
-		<span id="pwdMsg1" style="color: red"></span><br><br>
+				<b><label>EMAIL : </lable></b>
+				<input type="email" name="email" id="email">
+				<span id="emailMsg" style="color: red"></span><br><br>
 
-		<b><label>CONFIRM PASSWORD : </lable></b>
-		<input type="password" name="pwd2" id="pwd2">
-		<span id="pwdMsg2" style="color: red"></span><br><br>
+				<b><label>CREATE PASSWORD : </lable></b>
+				<input type="password" name="pwd1" id="pwd1">
+				<span id="pwdMsg1" style="color: red"></span><br><br>
 
-		<button onclick="validateForm()">SUBMIT</button> 
-		<button onclick="reset()">RESET</button><br>
-		</li>
+				<b><label>CONFIRM PASSWORD : </lable></b>
+				<input type="password" name="pwd2" id="pwd2">
+				<span id="pwdMsg2" style="color: red"></span><br><br>
+
+				<button onclick="validateForm()">SUBMIT</button>
+				<button onclick="reset()">RESET</button><br>
+			</li>
 		</ul>
-		</form>
+	</form>
 
 </body>
 <script type="text/javascript" src="registerValidateJS.js"></script>
+
 </html>
